@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-top: 8%;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.container form{
+    background-color: white;
+    padding: 80px 30px 10px 30px;
+   width: 500px;
+  border-radius: 20px;
+
+}
+
+.container .first p{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+.container .first{
+    margin-top: 25%;
+}
+.container .first p span{
+    color: white;
+}
+
+.container .form p{
+color: grey;
+}
+.container .form{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.container .form h1{
+    font-size: 20px;
+}
+.container .form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.inputs div input{
+    width: 100%;
+    height: 35px;
+    border: 2px gray solid;
+ 
+    border-radius: 10px;
+}
+.inputs div label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.signup{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ text-align: center;
+    
+}
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.lastwords{
+ position: relative;
+ left: 90%;
+ color: gray;
+ bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    
+    .container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .container form {
+      width: 100%;
+      padding: 40px 20px 10px 20px;
+    }
+    .container .first {
+      margin-top: 10%;
+      text-align: center;
+    }
+    .lastwords{
+        display: none;
+    }
+  }

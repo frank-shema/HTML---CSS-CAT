@@ -1,0 +1,115 @@
+.left_menu{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.menu{
+    background-color: rgb(33, 33, 33);
+    margin-left: -1vw;
+    padding: 15px;
+    text-align: center;
+    height: 150vh;
+}
+.span1{
+    color: orange;
+}
+.span2{
+    color: white
+}
+p{
+    color: white;
+}
+h1{
+    margin-bottom: 3%;
+}
+.span3{
+    margin-bottom: 200%;
+}
+hr{
+    color: grey;
+    width: 100%;
+}
+.orange{
+    background-color: orange;
+    height: 12em;
+    margin-left: -50px;
+    width: 250px;
+    margin-right: -27px;
+    border: none
+}
+.items{
+    width: 90%;
+    margin-left: 2em;
+}
+
+.h3{
+    display: inline-block;
+    margin-left: 70%;
+    top: -10%;
+}
+.h2{
+    display: inline-block;
+
+}
+h4{
+    display: block;
+}
+img{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    transform: translate(-50%, 5%);
+}
+.new{
+    text-align: center;
+    font-size: 30px;
+}
+.input{
+   margin-left: 20vw;
+   width: 50%;
+   height: 2em;
+   outline: none;
+   box-shadow: 0em;
+   margin-bottom: 3em;
+   border: none;
+   border-bottom: 1px solid black;
+}
+.main{
+    background-color: rgb(247, 242, 242);
+    width: 100%;
+    height: 115%;
+    border-radius: 5px;
+}
+
+.orange_eye{
+    margin-left: 3em;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+}
+.resto{
+    padding: 4px;
+    background-color: grey;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 6em;
+}
+td{
+    height: 10em;
+}
+h7{
+    display: inline-block;
+}
+.sort{
+    display: inline-block;
+    color: black;
+    margin-left: 70vw;
+    margin-right: 3vw;
+}
+.img_sort{
+    margin-right: -1vw;
+    transform: translate(-50%,-10%);
+}
